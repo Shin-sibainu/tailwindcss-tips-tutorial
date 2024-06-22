@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sample_css {
+  /* @apply inline-block text-purple-200 bg-purple-900 py-2 px-6 rounded-lg uppercase; */
+  color: theme("colors.purple.200");
+  background-color: theme("colors.purple.900");
+  padding: theme("padding.2") theme("padding.6");
+  border-radius: theme("borderRadius.lg");
+  text-transform: uppercase;
+  display: inline-block;
+}
