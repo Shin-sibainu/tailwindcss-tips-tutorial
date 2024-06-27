@@ -1,12 +1,11 @@
-import React from "react";
-import Button from "./Button";
-
 const Tips6 = () => {
   return (
-    <div className="flex gap-3">
-      <Button className="bg-red-500">Button</Button>
-      <Button className="bg-green-500">Button</Button>
-      <Button>Button</Button>
+    <div className="flex flex-row space-x-4">
+      <div className="bg-orange-50  0 h-20 w-20"></div>
+      <div className="bg-orange-500 h-20 w-20"></div>
+      <div className="bg-orange-500 h-20 w-20"></div>
+      <div className="bg-orange-500 h-20 w-20"></div>
+      <div className="bg-orange-500 h-20 w-20"></div>
     </div>
   );
 };
