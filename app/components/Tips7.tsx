@@ -7,6 +7,7 @@ const Tips7 = () => {
       <Button className="bg-red-500">Button</Button>
       <Button className="bg-green-500">Button</Button>
       <Button>Button</Button>
+      <Button pending>Button</Button>
     </div>
   );
 };
